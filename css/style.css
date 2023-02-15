@@ -1,0 +1,143 @@
+
+* {
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background-color: #202021;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.img {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #960505;
+  font-size: 35px;
+}
+
+.info {
+  color:#fff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+h2 {
+  color:#960505;
+  text-align: center;
+  font-size: 35px;
+}
+
+.game {
+  color:#fff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.textScroll {
+  text-align: center;
+}
+
+select {
+  color:#fff;
+  background-color: #202021;
+  margin: 20px 30px;
+  text-align: justify;
+  border: 3px solid #960505;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.page {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+table, td {
+  border: 3px solid black;
+  padding: 40px;
+  margin: 0 auto;
+  border-spacing: 30px;
+}
+
+.one, .fourteen {
+  background-color: #909090;
+}
+
+.two, .three, .four, .seven, .nine, .eleven, .twelve {
+   background-color: #385b12;
+}
+
+.five {
+  background-color: #2bff00;
+}
+
+.six, .thirteen {
+  background-color: #1a2f00;
+}
+
+.eight {
+  background-color: #cbcb13;
+}
+
+.ten {
+  background-color: blue;
+}
+
+caption {
+  font-size: 24px;
+  color: #fff;
+}
+
